@@ -8,5 +8,8 @@ namespace DigHole
 {
 	class GameObject
 	{
+
+
+
 	}
 }
