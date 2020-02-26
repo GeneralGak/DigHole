@@ -41,10 +41,21 @@
     <ApplicationManifest>app.manifest</ApplicationManifest>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Asset.cs" />
+    <Compile Include="Camera2D.cs" />
+    <Compile Include="Character.cs" />
+    <Compile Include="Environment.cs" />
     <Compile Include="GameObject.cs" />
     <Compile Include="GameWorld.cs" />
+    <Compile Include="Helper.cs" />
+    <Compile Include="ICamera2D.cs" />
+    <Compile Include="IFocusable.cs" />
+    <Compile Include="Keyboard.cs" />
+    <Compile Include="Level.cs" />
+    <Compile Include="Player.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Room.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="MonoGame.Framework">
